@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7B55E42423DF2400C96D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B55E32423DF2400C96D44 /* AppDelegate.swift */; };
+		3F7B55E62423DF2400C96D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B55E52423DF2400C96D44 /* SceneDelegate.swift */; };
+		3F7B55E82423DF2400C96D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B55E72423DF2400C96D44 /* ViewController.swift */; };
+		3F7B55EB2423DF2400C96D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B55E92423DF2400C96D44 /* Main.storyboard */; };
+		3F7B55ED2423DF2600C96D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B55EC2423DF2600C96D44 /* Assets.xcassets */; };
+		3F7B55F02423DF2600C96D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B55EE2423DF2600C96D44 /* LaunchScreen.storyboard */; };
+		3F7B55F52423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F7B55F42423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F7B55FB2423DF2600C96D44 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B55F92423DF2600C96D44 /* Interface.storyboard */; };
+		3F7B55FD2423DF2700C96D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B55FC2423DF2700C96D44 /* Assets.xcassets */; };
+		3F7B56042423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F7B56032423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F7B56092423DF2700C96D44 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B56082423DF2700C96D44 /* InterfaceController.swift */; };
+		3F7B560B2423DF2700C96D44 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B560A2423DF2700C96D44 /* ExtensionDelegate.swift */; };
+		3F7B560D2423DF2700C96D44 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B560C2423DF2700C96D44 /* NotificationController.swift */; };
+		3F7B560F2423DF2700C96D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B560E2423DF2700C96D44 /* Assets.xcassets */; };
+		3F960A6C242E35D70088052B /* ViewControllerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F960A6B242E35D70088052B /* ViewControllerRecord.swift */; };
+		3F9F49BC2465E2B200755DA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9F49BB2465E2B200755DA7 /* Default-568h@2x.png */; };
+		3FF3F8092460592D008C9A81 /* SensorDataAcquisition2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3F8082460592D008C9A81 /* SensorDataAcquisition2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7B55F62423DF2600C96D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7B55D82423DF2300C96D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7B55F32423DF2600C96D44;
+			remoteInfo = "SensorDataAcquisition2 WatchKit App";
+		};
+		3F7B56052423DF2700C96D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7B55D82423DF2300C96D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7B56022423DF2700C96D44;
+			remoteInfo = "SensorDataAcquisition2 WatchKit Extension";
+		};
+		3FF3F80B2460592D008C9A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7B55D82423DF2300C96D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7B55DF2423DF2400C96D44;
+			remoteInfo = SensorDataAcquisition2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7B56172423DF2700C96D44 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F7B56042423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7B561B2423DF2700C96D44 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F7B55F52423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F7B55E02423DF2400C96D44 /* SensorDataAcquisition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorDataAcquisition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7B55E32423DF2400C96D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7B55E52423DF2400C96D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F7B55E72423DF2400C96D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7B55EA2423DF2400C96D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7B55EC2423DF2600C96D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7B55EF2423DF2600C96D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7B55F12423DF2600C96D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7B55F42423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorDataAcquisition WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7B55FA2423DF2600C96D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F7B55FC2423DF2700C96D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7B55FE2423DF2700C96D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7B56032423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SensorDataAcquisition WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7B56082423DF2700C96D44 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3F7B560A2423DF2700C96D44 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F7B560C2423DF2700C96D44 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3F7B560E2423DF2700C96D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7B56102423DF2700C96D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7B56112423DF2700C96D44 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F960A6B242E35D70088052B /* ViewControllerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRecord.swift; sourceTree = "<group>"; };
+		3F9F49BB2465E2B200755DA7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FF3F8062460592D008C9A81 /* SensorDataAcquisitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorDataAcquisitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF3F8082460592D008C9A81 /* SensorDataAcquisition2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataAcquisition2Tests.swift; sourceTree = "<group>"; };
+		3FF3F80A2460592D008C9A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7B55DD2423DF2400C96D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7B56002423DF2700C96D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF3F8032460592D008C9A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7B55D72423DF2300C96D44 = {
+			isa = PBXGroup;
+			children = (
+				3F9F49BB2465E2B200755DA7 /* Default-568h@2x.png */,
+				3F7B55E22423DF2400C96D44 /* SensorDataAcquisition */,
+				3F7B55F82423DF2600C96D44 /* SensorDataAcquisition WatchKit App */,
+				3F7B56072423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension */,
+				3FF3F8072460592D008C9A81 /* SensorDataAcquisitionTests */,
+				3F7B55E12423DF2400C96D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7B55E12423DF2400C96D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B55E02423DF2400C96D44 /* SensorDataAcquisition.app */,
+				3F7B55F42423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app */,
+				3F7B56032423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex */,
+				3FF3F8062460592D008C9A81 /* SensorDataAcquisitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7B55E22423DF2400C96D44 /* SensorDataAcquisition */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B55E32423DF2400C96D44 /* AppDelegate.swift */,
+				3F7B55E52423DF2400C96D44 /* SceneDelegate.swift */,
+				3F7B55E72423DF2400C96D44 /* ViewController.swift */,
+				3F7B55E92423DF2400C96D44 /* Main.storyboard */,
+				3F7B55EC2423DF2600C96D44 /* Assets.xcassets */,
+				3F7B55EE2423DF2600C96D44 /* LaunchScreen.storyboard */,
+				3F7B55F12423DF2600C96D44 /* Info.plist */,
+				3F960A6B242E35D70088052B /* ViewControllerRecord.swift */,
+			);
+			path = SensorDataAcquisition;
+			sourceTree = "<group>";
+		};
+		3F7B55F82423DF2600C96D44 /* SensorDataAcquisition WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B55F92423DF2600C96D44 /* Interface.storyboard */,
+				3F7B55FC2423DF2700C96D44 /* Assets.xcassets */,
+				3F7B55FE2423DF2700C96D44 /* Info.plist */,
+			);
+			path = "SensorDataAcquisition WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F7B56072423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B56082423DF2700C96D44 /* InterfaceController.swift */,
+				3F7B560A2423DF2700C96D44 /* ExtensionDelegate.swift */,
+				3F7B560C2423DF2700C96D44 /* NotificationController.swift */,
+				3F7B560E2423DF2700C96D44 /* Assets.xcassets */,
+				3F7B56102423DF2700C96D44 /* Info.plist */,
+				3F7B56112423DF2700C96D44 /* PushNotificationPayload.apns */,
+			);
+			path = "SensorDataAcquisition WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3FF3F8072460592D008C9A81 /* SensorDataAcquisitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF3F8082460592D008C9A81 /* SensorDataAcquisition2Tests.swift */,
+				3FF3F80A2460592D008C9A81 /* Info.plist */,
+			);
+			path = SensorDataAcquisitionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7B55DF2423DF2400C96D44 /* SensorDataAcquisition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7B561C2423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition" */;
+			buildPhases = (
+				3F7B55DC2423DF2400C96D44 /* Sources */,
+				3F7B55DD2423DF2400C96D44 /* Frameworks */,
+				3F7B55DE2423DF2400C96D44 /* Resources */,
+				3F7B561B2423DF2700C96D44 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7B55F72423DF2600C96D44 /* PBXTargetDependency */,
+			);
+			name = SensorDataAcquisition;
+			productName = SensorDataAcquisition2;
+			productReference = 3F7B55E02423DF2400C96D44 /* SensorDataAcquisition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7B55F32423DF2600C96D44 /* SensorDataAcquisition WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7B56182423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition WatchKit App" */;
+			buildPhases = (
+				3F7B55F22423DF2600C96D44 /* Resources */,
+				3F7B56172423DF2700C96D44 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7B56062423DF2700C96D44 /* PBXTargetDependency */,
+			);
+			name = "SensorDataAcquisition WatchKit App";
+			productName = "SensorDataAcquisition2 WatchKit App";
+			productReference = 3F7B55F42423DF2600C96D44 /* SensorDataAcquisition WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F7B56022423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7B56142423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition WatchKit Extension" */;
+			buildPhases = (
+				3F7B55FF2423DF2700C96D44 /* Sources */,
+				3F7B56002423DF2700C96D44 /* Frameworks */,
+				3F7B56012423DF2700C96D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SensorDataAcquisition WatchKit Extension";
+			productName = "SensorDataAcquisition2 WatchKit Extension";
+			productReference = 3F7B56032423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3FF3F8052460592D008C9A81 /* SensorDataAcquisitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF3F80F2460592D008C9A81 /* Build configuration list for PBXNativeTarget "SensorDataAcquisitionTests" */;
+			buildPhases = (
+				3FF3F8022460592D008C9A81 /* Sources */,
+				3FF3F8032460592D008C9A81 /* Frameworks */,
+				3FF3F8042460592D008C9A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF3F80C2460592D008C9A81 /* PBXTargetDependency */,
+			);
+			name = SensorDataAcquisitionTests;
+			productName = SensorDataAcquisition2Tests;
+			productReference = 3FF3F8062460592D008C9A81 /* SensorDataAcquisitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7B55D82423DF2300C96D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F7B55DF2423DF2400C96D44 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F7B55F32423DF2600C96D44 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F7B56022423DF2700C96D44 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3FF3F8052460592D008C9A81 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F7B55DF2423DF2400C96D44;
+					};
+				};
+			};
+			buildConfigurationList = 3F7B55DB2423DF2300C96D44 /* Build configuration list for PBXProject "SensorDataAcquisition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7B55D72423DF2300C96D44;
+			productRefGroup = 3F7B55E12423DF2400C96D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7B55DF2423DF2400C96D44 /* SensorDataAcquisition */,
+				3F7B55F32423DF2600C96D44 /* SensorDataAcquisition WatchKit App */,
+				3F7B56022423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension */,
+				3FF3F8052460592D008C9A81 /* SensorDataAcquisitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7B55DE2423DF2400C96D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B55F02423DF2600C96D44 /* LaunchScreen.storyboard in Resources */,
+				3F9F49BC2465E2B200755DA7 /* Default-568h@2x.png in Resources */,
+				3F7B55ED2423DF2600C96D44 /* Assets.xcassets in Resources */,
+				3F7B55EB2423DF2400C96D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7B55F22423DF2600C96D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B55FD2423DF2700C96D44 /* Assets.xcassets in Resources */,
+				3F7B55FB2423DF2600C96D44 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7B56012423DF2700C96D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B560F2423DF2700C96D44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF3F8042460592D008C9A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7B55DC2423DF2400C96D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B55E82423DF2400C96D44 /* ViewController.swift in Sources */,
+				3F7B55E42423DF2400C96D44 /* AppDelegate.swift in Sources */,
+				3F7B55E62423DF2400C96D44 /* SceneDelegate.swift in Sources */,
+				3F960A6C242E35D70088052B /* ViewControllerRecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7B55FF2423DF2700C96D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B560D2423DF2700C96D44 /* NotificationController.swift in Sources */,
+				3F7B560B2423DF2700C96D44 /* ExtensionDelegate.swift in Sources */,
+				3F7B56092423DF2700C96D44 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF3F8022460592D008C9A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF3F8092460592D008C9A81 /* SensorDataAcquisition2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7B55F72423DF2600C96D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7B55F32423DF2600C96D44 /* SensorDataAcquisition WatchKit App */;
+			targetProxy = 3F7B55F62423DF2600C96D44 /* PBXContainerItemProxy */;
+		};
+		3F7B56062423DF2700C96D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7B56022423DF2700C96D44 /* SensorDataAcquisition WatchKit Extension */;
+			targetProxy = 3F7B56052423DF2700C96D44 /* PBXContainerItemProxy */;
+		};
+		3FF3F80C2460592D008C9A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7B55DF2423DF2400C96D44 /* SensorDataAcquisition */;
+			targetProxy = 3FF3F80B2460592D008C9A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7B55E92423DF2400C96D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7B55EA2423DF2400C96D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7B55EE2423DF2600C96D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7B55EF2423DF2600C96D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7B55F92423DF2600C96D44 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7B55FA2423DF2600C96D44 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7B56122423DF2700C96D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7B56132423DF2700C96D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7B56152423DF2700C96D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = "SensorDataAcquisition WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3F7B56162423DF2700C96D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = "SensorDataAcquisition WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3F7B56192423DF2700C96D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				IBSC_MODULE = SensorDataAcquisition_WatchKit_Extension;
+				INFOPLIST_FILE = "SensorDataAcquisition WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3F7B561A2423DF2700C96D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				IBSC_MODULE = SensorDataAcquisition_WatchKit_Extension;
+				INFOPLIST_FILE = "SensorDataAcquisition WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3F7B561D2423DF2700C96D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = SensorDataAcquisition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7B561E2423DF2700C96D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = SensorDataAcquisition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FF3F80D2460592D008C9A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = SensorDataAcquisition2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorDataAcquisition.app/SensorDataAcquisition";
+			};
+			name = Debug;
+		};
+		3FF3F80E2460592D008C9A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4DA87C7K;
+				INFOPLIST_FILE = SensorDataAcquisition2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itk.SensorDataAcquisition2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorDataAcquisition.app/SensorDataAcquisition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7B55DB2423DF2300C96D44 /* Build configuration list for PBXProject "SensorDataAcquisition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B56122423DF2700C96D44 /* Debug */,
+				3F7B56132423DF2700C96D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7B56142423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B56152423DF2700C96D44 /* Debug */,
+				3F7B56162423DF2700C96D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7B56182423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B56192423DF2700C96D44 /* Debug */,
+				3F7B561A2423DF2700C96D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7B561C2423DF2700C96D44 /* Build configuration list for PBXNativeTarget "SensorDataAcquisition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B561D2423DF2700C96D44 /* Debug */,
+				3F7B561E2423DF2700C96D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF3F80F2460592D008C9A81 /* Build configuration list for PBXNativeTarget "SensorDataAcquisitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF3F80D2460592D008C9A81 /* Debug */,
+				3FF3F80E2460592D008C9A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7B55D82423DF2300C96D44 /* Project object */;
+}
